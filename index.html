@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Who Are Your Real Friends?</title>
     <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="public/scripts/app.js"></script>
 </head>
-<body ng-controller="ctrl">
-    <img ng-src="{{image.url}}" ng-repeat="image in images"/>
+<body ng-view>
+
 </body>
 </html>

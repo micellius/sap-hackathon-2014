@@ -1,5 +1,5 @@
 {
-  "name": "sap-one-experience",
+  "name": "sap-hackathon-2014",
   "version": "0.0.1",
   "authors": [
     "Vadim Tomnikov <micellius@gmail.com>"
@@ -13,6 +13,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "angular": "~1.2.23"
+    "angular": "~1.2.25",
+    "angular-route": "~1.2.25"
   }
 }
