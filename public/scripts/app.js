@@ -13,6 +13,7 @@ angular.module('app',['ngRoute']).
                 redirectTo: '/login'
             });
     }).
+    service('').
     controller('loginController', function() {
         // TODO[Vova]
     }).
