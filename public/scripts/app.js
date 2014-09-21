@@ -21,7 +21,8 @@ angular.module('app',['ngRoute']).
         $scope.images = [];
         for(i=0; i<30; i++) {
             $scope.images.push({
-                url: 'http://lorempixel.com/200/200?ts=' + Math.random()
+                url: 'http://lorempixel.com/200/200?ts=' + Math.random(),
+                style: '-webkit-transform: rotate(' + Math.floor(Math.random()*30 - 15)+ 'deg);'
             });
         }
     });
