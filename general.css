@@ -1,0 +1,15 @@
+* {
+    maring: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background: transparent url("images/hangover.jpg") no-repeat;
+    background-size: 100%;
+}
+
+div.container {
+    width: 100%;
+    height: 100%;
+}
