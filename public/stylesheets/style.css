@@ -1,4 +1,44 @@
+@keyframes images {
+    0% {
+        width: 200px;
+        height: 200px;
+        margin: 1em;
+        box-shadow: 5px 5px 10px #666;
+        border: 1em solid white;
+    }
+    100% {
+        width: 0px;
+        height: 0px;
+        margin: 0em;
+        box-shadow: 0px 0px 0px #666;
+        border: 0em solid white;
+    }
+}
+
+@-webkit-keyframes images {
+    0% {
+        width: 200px;
+        height: 200px;
+        margin: 1em;
+        box-shadow: 5px 5px 10px #666;
+        border: 1em solid white;
+    }
+    100% {
+        width: 0px;
+        height: 0px;
+        margin: 0em;
+        box-shadow: 0px 0px 0px #666;
+        border: 0em solid white;
+    }
+}
+
 img {
     margin: 1em;
-    box-shadow: 5px 5px 5px #666;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    box-shadow: 5px 5px 10px #666;
+    border: 1em solid white;
+}
+
+img.hidden {
+    animation: images 1.8s;
+    -webkit-animation: images 1.8s;
 }
