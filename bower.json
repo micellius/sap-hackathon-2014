@@ -1,0 +1,19 @@
+{
+  "name": "sap-hackathon-2014",
+  "version": "0.0.1",
+  "authors": [
+    "Vadim Tomnikov <micellius@gmail.com>"
+  ],
+  "description": "SAP Hackathon 2014",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25",
+    "angular-route": "~1.2.25"
+  }
+}
